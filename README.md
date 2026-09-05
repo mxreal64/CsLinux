@@ -1,6 +1,6 @@
 # CsLinux
 
-Zero-allocation, high-performance Linux UAPI kernel bridge for modern .NET. Maps raw syscalls, `epoll`, and `io_uring` directly to unmanaged C# primitives. Built purely for mechanical sympathy with 0% garbage collection overhead.
+High-performance Linux UAPI kernel bridge for modern .NET. Maps raw syscalls, `epoll`, and `io_uring` directly to unmanaged C# primitives.
 
 ## The Architecture
 * **Pure UAPI Mapping:** Directly binds C# compilation layouts to the raw Linux kernel ABI (`libc.so.6` syscall gates) with zero intermediate C/C++ shims.
