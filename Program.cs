@@ -1,7 +1,3 @@
-﻿using System;
-using System.Runtime.InteropServices;
-using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Running;
 using CsLinux;
 
 internal class Program {
